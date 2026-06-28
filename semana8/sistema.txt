@@ -1,0 +1,6 @@
+Información de cada comando:
+- uname -a: Muestra información detallada del sistema operativo y del núcleo (kernel) de Linux, incluyendo el nombre del host, la versión del kernel, la arquitectura del procesador (ej. x86_64) y la fecha de compilación.
+- whoami: Muestra el nombre exacto del usuario actual que ha iniciado sesión y que está ejecutando los comandos en la terminal.
+
+Importancia en la administración de servidores:
+Conocer estos datos es crucial para un administrador porque le permite verificar si el hardware y la arquitectura del sistema operativo son compatibles con el software o las dependencias que planea instalar. Además, ayuda a identificar de inmediato si el kernel cuenta con los últimos parches de seguridad aplicados o si requiere una actualización crítica para corregir vulnerabilidades conocidas. Por último, saber qué usuario se está usando (whoami) evita cometer errores graves de permisos al ejecutar tareas que requieran privilegios elevados de superusuario (root).

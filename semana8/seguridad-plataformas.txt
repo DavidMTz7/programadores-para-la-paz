@@ -1,0 +1,5 @@
+1. No exponer datos personales: Ocultar o cifrar información confidencial de los usuarios, como números de teléfono, identificaciones o direcciones, en las interfaces públicas de la aplicación.
+2. Proteger credenciales: Implementar políticas de contraseñas robustas y almacenar las claves de acceso mediante algoritmos de cifrado (hashing) seguros en el servidor.
+3. Usar conexiones seguras: Configurar certificados SSL/TLS para forzar el uso del protocolo HTTPS, garantizando que los datos viajen encriptados entre el ciudadano y el servidor.
+4. Registrar accesos: Mantener un historial o log de auditoría interno de los inicios de sesión y modificaciones críticas para detectar actividades inusuales o sospechosas.
+5. Limitar acceso a información sensible: Aplicar un control de acceso estricto basado en roles, asegurando que solo el personal verificado pueda ver los detalles de los reportes comunitarios.
