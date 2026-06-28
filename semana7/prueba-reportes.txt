@@ -1,0 +1,5 @@
+Análisis de comportamiento de los endpoints /reportes:
+
+Al realizar una petición inicial mediante el método GET a http://localhost:3000/reportes, el servidor responde con un código de estado 200 OK y devuelve un array vacío []. Esto ocurre porque el arreglo global en memoria no ha sido poblado.
+
+Posteriormente, tras enviar uno o varios registros mediante solicitudes de método POST con un formato JSON en el cuerpo del mensaje, el servidor los inserta secuencialmente en el arreglo dándoles un ID incremental. Al ejecutar de nuevo la consulta de tipo GET, el servidor responde con un arreglo estructurado que contiene todos los objetos JSON registrados activamente en memoria. Cabe resaltar que si el proceso de Node.js se reinicia, el estado de la memoria se limpia y el array vuelve a inicializarse vacío.
