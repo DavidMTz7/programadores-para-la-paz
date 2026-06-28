@@ -1,0 +1,10 @@
+Análisis de ejecución de server.js:
+
+1. Qué ocurre cuando ejecutas node server.js:
+El entorno de Node.js compila y arranca el script, asignando un proceso en el sistema operativo que bloquea temporalmente la consola para mantenerse en un bucle continuo de escucha activa de peticiones de red.
+
+2. Qué mensaje aparece en la terminal:
+Aparece exactamente la cadena de texto configurada en el callback del método listen: "Servidor ejecutándose en puerto 3000".
+
+3. Qué sucede cuando visitas la ruta /estado:
+El navegador web realiza una petición HTTP GET al endpoint. El servidor Express la procesa y responde enviando un código de estado 200 OK junto con un objeto de datos estructurado en formato JSON que contiene las propiedades "estado" y "servicio".

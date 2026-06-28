@@ -1,0 +1,14 @@
+Sistema operativo:
+Es la base de software del servidor que administra el hardware físico o virtual, gestiona la memoria, los archivos y los procesos del sistema, y permite que entornos de ejecución como Node.js operen con normalidad.
+
+Node.js:
+Es el entorno de ejecución de JavaScript en el lado del servidor estructurado sobre el motor V8. Traduce el código de programación JS a lenguaje de máquina para procesar solicitudes asíncronas y operaciones de red eficientemente.
+
+Aplicación server.js:
+Es el archivo de código fuente desarrollado por el programador que contiene la lógica de negocio, las dependencias de Express y la definición de las rutas específicas que determinarán cómo responderá el servidor a los clientes.
+
+Puerto:
+Es una interfaz lógica o compuerta numérica específica (como el puerto 3000) asignada en la red para canalizar el tráfico de datos hacia una aplicación o servicio particular en ejecución, evitando colisiones de red.
+
+Logs:
+Son archivos de texto plano que registran cronológicamente los eventos, solicitudes procesadas, accesos y errores críticos del servidor. Sirven como la herramienta principal de auditoría y diagnóstico para los administradores de sistemas.
