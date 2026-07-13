@@ -1,0 +1,9 @@
+Un usuario administrador crea y publica una causa colectiva en la plataforma.
+
+La causa se almacena en la base de datos y se genera un enlace público.
+
+Los ciudadanos ingresan al enlace y registran su apoyo digital a la causa.
+
+El sistema actualiza el contador de apoyos en tiempo real en la base de datos.
+
+El sistema consolida la información y genera un documento PDF formal con la petición y el total de apoyos para ser descargado y presentado.

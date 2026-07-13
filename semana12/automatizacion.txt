@@ -1,0 +1,5 @@
+Evento que activa: Registro de un nuevo apoyo en una causa.
+
+Mensaje enviado: "¡Nuevo apoyo registrado! La causa '[Título de la Causa]' ha alcanzado un nuevo miembro en su comunidad."
+
+Información excluida por seguridad: No se deben enviar nombres de los firmantes, documentos de identidad, correos electrónicos, teléfonos ni datos sensibles de contacto.

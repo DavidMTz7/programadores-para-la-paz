@@ -1,0 +1,3 @@
+Entidad Causa: Almacena los datos principales de la iniciativa (id, título, descripción, fecha). Sirve para identificar y centralizar cada propuesta comunitaria.
+
+Entidad Apoyo: Registra la participación de los ciudadanos vinculando su registro a una causa específica (id, causa_id, nombre, fecha). Sirve para cuantificar el respaldo sin acumular datos excesivos.
